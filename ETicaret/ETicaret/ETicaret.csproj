@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87C9BD08-2EA7-4F20-BABC-AC6751DF2EAF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ETicaret</RootNamespace>
+    <AssemblyName>ETicaret</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\background.JPG" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Site\detay.aspx" />
+    <Content Include="Site\Odeme.aspx" />
+    <Content Include="Site\OdemeBitir.aspx" />
+    <Content Include="Site\search.aspx" />
+    <Content Include="Site\sepet.aspx" />
+    <Content Include="Site\sepet1.aspx" />
+    <Content Include="Site\sepetSil.aspx" />
+    <Content Include="Site\urun.aspx" />
+    <Content Include="tasarim\css\fonts\font-awesome\fontawesome-webfontba72.eot" />
+    <Content Include="tasarim\css\fonts\font-awesome\fontawesome-webfontba72.ttf" />
+    <Content Include="tasarim\css\fonts\font-awesome\fontawesome-webfontba72.woff" />
+    <Content Include="tasarim\css\fonts\font-awesome\fontawesome-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bold-webfont.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bold-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bold-webfont.woff" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bold-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bolditalic-webfont.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bolditalic-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bolditalic-webfont.woff" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bolditalic-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-italic-webfont.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-italic-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-italic-webfont.woff" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-italic-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-light-webfont.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-light-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-light-webfont.woff" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-light-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-lightitalic-webfont.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-lightitalic-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-lightitalic-webfont.woff" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-lightitalic-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-regular-webfont.eot" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-regular-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-regular-webfont.woff" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-regular-webfontd41d.eot" />
+    <Content Include="tasarim\css\fonts\pacifico\pacifico-webfont.eot" />
+    <Content Include="tasarim\css\fonts\pacifico\pacifico-webfont.ttf" />
+    <Content Include="tasarim\css\fonts\pacifico\pacifico-webfont.woff" />
+    <Content Include="tasarim\css\fonts\pacifico\pacifico-webfontd41d.eot" />
+    <Content Include="Site\Master.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\login.css" />
+    <Content Include="Giris\login.aspx" />
+    <Content Include="Giris\signUp.aspx" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Site\index.aspx" />
+    <Content Include="tasarim\css\bootstrap.css" />
+    <Content Include="tasarim\css\font-awesome.min.css" />
+    <Content Include="tasarim\css\fonts\font-awesome\fontawesome-webfontba72.svg" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bold-webfont.svg" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-bolditalic-webfont.svg" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-italic-webfont.svg" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-light-webfont.svg" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-lightitalic-webfont.svg" />
+    <Content Include="tasarim\css\fonts\opensans\opensans-regular-webfont.svg" />
+    <Content Include="tasarim\css\fonts\pacifico\pacifico-webfont.svg" />
+    <Content Include="tasarim\css\style.css" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular-3.html" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular-4.html" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="tasarim\fonts\glyphicons-halflings-regulard41d.html" />
+    <Content Include="tasarim\img\13macbookpro.jpeg" />
+    <Content Include="tasarim\img\13macbookpro1.jpg" />
+    <Content Include="tasarim\img\13macbookpro2.jpg" />
+    <Content Include="tasarim\img\13macbookpro3.jpg" />
+    <Content Include="tasarim\img\16macbook1.jpg" />
+    <Content Include="tasarim\img\16macbook2.jpg" />
+    <Content Include="tasarim\img\16macbook3.jpg" />
+    <Content Include="tasarim\img\16macbookpro.jpeg" />
+    <Content Include="tasarim\img\airpods.PNG" />
+    <Content Include="tasarim\img\airpods1.PNG" />
+    <Content Include="tasarim\img\airpods2.PNG" />
+    <Content Include="tasarim\img\airpods3.jpg" />
+    <Content Include="tasarim\img\imac.jpg" />
+    <Content Include="tasarim\img\imac1.PNG" />
+    <Content Include="tasarim\img\imac2.PNG" />
+    <Content Include="tasarim\img\imac3.PNG" />
+    <Content Include="tasarim\img\ipad.PNG" />
+    <Content Include="tasarim\img\ipad1.PNG" />
+    <Content Include="tasarim\img\ipad2.PNG" />
+    <Content Include="tasarim\img\ipad3.PNG" />
+    <Content Include="tasarim\img\iphone11a.jpg" />
+    <Content Include="tasarim\img\iphone11b.jpg" />
+    <Content Include="tasarim\img\iphone11c.jpg" />
+    <Content Include="tasarim\img\iphone11d.jpg" />
+    <Content Include="tasarim\img\iphone12.jpg" />
+    <Content Include="tasarim\img\iphone12.png" />
+    <Content Include="tasarim\img\iphone12a.jpg" />
+    <Content Include="tasarim\img\iphone12b.jpg" />
+    <Content Include="tasarim\img\iphone12c.jpg" />
+    <Content Include="tasarim\img\iphone12pro.jpg" />
+    <Content Include="tasarim\img\iphone12pro1.jpg" />
+    <Content Include="tasarim\img\iphone12proa.jpg" />
+    <Content Include="tasarim\img\iphone12prob.jpg" />
+    <Content Include="tasarim\img\iphone12proc.jpg" />
+    <Content Include="tasarim\img\iphonese.jpg" />
+    <Content Include="tasarim\img\iphonese.png" />
+    <Content Include="tasarim\img\iphonese1.jpg" />
+    <Content Include="tasarim\img\iphonese2.jpg" />
+    <Content Include="tasarim\img\iphonese3.jpg" />
+    <Content Include="tasarim\img\iphonex.jpg" />
+    <Content Include="tasarim\img\iphonex1.jpg" />
+    <Content Include="tasarim\img\iphonex2.jpg" />
+    <Content Include="tasarim\img\iphonex3.jpg" />
+    <Content Include="tasarim\img\iphonexr.jpg" />
+    <Content Include="tasarim\img\iphonexr1.jpg" />
+    <Content Include="tasarim\img\iphonexr2.jpg" />
+    <Content Include="tasarim\img\iphonexr3.jpg" />
+    <Content Include="tasarim\img\macbook.jpg" />
+    <Content Include="tasarim\img\macbook.PNG" />
+    <Content Include="tasarim\img\macbookair.jpg" />
+    <Content Include="tasarim\img\sepet.png" />
+    <Content Include="tasarim\img\slide\imac.PNG" />
+    <Content Include="tasarim\img\slide\imac2.jpg" />
+    <Content Include="tasarim\img\search.png" />
+    <Content Include="tasarim\img\slide\iphone.PNG" />
+    <Content Include="tasarim\img\slide\watch.jpg" />
+    <Content Include="tasarim\img\watch1.jpg" />
+    <Content Include="tasarim\img\watch2.jpg" />
+    <Content Include="tasarim\img\watch3.PNG" />
+    <Content Include="tasarim\img\watch4.PNG" />
+    <Content Include="tasarim\js\banzhow.js" />
+    <Content Include="tasarim\js\bootstrap.js" />
+    <Content Include="tasarim\js\jquery-1.10.2.js" />
+    <Content Include="tasarim\js\plugins.js" />
+    <Content Include="tasarim\js\switcher\switcher.css" />
+    <Content Include="tasarim\js\switcher\switcher.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Giris\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Giris\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Giris\sifrele.cs" />
+    <Compile Include="Giris\signUp.aspx.cs">
+      <DependentUpon>signUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Giris\signUp.aspx.designer.cs">
+      <DependentUpon>signUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site\detay.aspx.cs">
+      <DependentUpon>detay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\detay.aspx.designer.cs">
+      <DependentUpon>detay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site\Odeme.aspx.cs">
+      <DependentUpon>Odeme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\Odeme.aspx.designer.cs">
+      <DependentUpon>Odeme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\OdemeBitir.aspx.cs">
+      <DependentUpon>OdemeBitir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\OdemeBitir.aspx.designer.cs">
+      <DependentUpon>OdemeBitir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\sepet.aspx.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\sepet.aspx.designer.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\sepet1.aspx.cs">
+      <DependentUpon>sepet1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\sepet1.aspx.designer.cs">
+      <DependentUpon>sepet1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\sepetSil.aspx.cs">
+      <DependentUpon>sepetSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\sepetSil.aspx.designer.cs">
+      <DependentUpon>sepetSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\urun.aspx.cs">
+      <DependentUpon>urun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\urun.aspx.designer.cs">
+      <DependentUpon>urun.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51395</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51395/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

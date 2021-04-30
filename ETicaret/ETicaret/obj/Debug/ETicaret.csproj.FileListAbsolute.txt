@@ -1,0 +1,66 @@
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\ApplicationInsights.config
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\csc.exe
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\System.Collections.Immutable.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\vbc.exe
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\VBCSCompiler.exe
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\roslyn\VBCSCompiler.exe.config
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\ETicaret.dll.config
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\ETicaret.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\ETicaret.pdb
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.Web.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.WindowsServer.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.ApplicationInsights.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.Web.xml
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.AI.WindowsServer.xml
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.ApplicationInsights.xml
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\obj\Debug\ETicaret.csprojResolveAssemblyReference.cache
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\obj\Debug\ETicaret.dll
+c:\users\cmc\documents\visual studio 2015\Projects\ETicaret\ETicaret\obj\Debug\ETicaret.pdb
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\ApplicationInsights.config
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\csc.exe
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\vbc.exe
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\VBCSCompiler.exe
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\ETicaret.dll.config
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\ETicaret.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\ETicaret.pdb
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.Web.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.Web.xml
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\obj\Debug\ETicaret.csprojResolveAssemblyReference.cache
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\obj\Debug\ETicaret.dll
+C:\Users\cmc\Desktop\bm\ETicaret\ETicaret\obj\Debug\ETicaret.pdb
